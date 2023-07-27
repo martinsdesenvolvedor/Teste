@@ -1,0 +1,52 @@
+<html>
+ <head>
+   <style>
+      body {
+        background: white;
+      }
+      
+      button {
+        padding: 0.6rem;
+        font-size: 1rem;
+        border-radius: 15px;
+      }
+      
+      h1 {
+        text-align: center;
+      }
+      p {
+        font-size: 1.7rem;
+        padding: 0 3rem;
+        text-align: justify;
+      }
+      
+      .rodape {
+        
+        text-align: center;
+        font-size: 1rem;
+      }
+   </style>
+ </head>
+ <body>
+   <header>
+     <button onclick="claro()">claro</button>
+     <button onclick="escuro()">escuro</button>
+   </header>
+    <h1>Martins Desenvolvedor</h1>
+    <p>O HTML (HyperText Markup Language) é uma linguagem de marcação utilizada para estruturar e apresentar conteúdo na web.</p>
+    <p>O CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a apresentação de um documento HTML.</p>
+    <p>O JavaScript é uma linguagem de programação utilizada para adicionar interatividade e dinamismo a programas e páginas web.</p>
+    <p class="rodape">Desenvolvido por Martins - 2023</p>
+    <script> 
+      function claro() {
+        document.body.style.background='white'
+        document.body.style.color='black'
+      }
+      
+      function escuro() {
+        document.body.style.background='black'
+        document.body.style.color='white'
+      }
+    </script>
+</body>
+</html>
